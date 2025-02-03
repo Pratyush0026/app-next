@@ -1,6 +1,6 @@
 import React from 'react'
 import Team from '../components/Team'
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar'
 import HomeHero from '../components/HomeHero'
 import Footer from '../components/Footer'
 
