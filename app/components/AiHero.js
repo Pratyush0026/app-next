@@ -104,7 +104,8 @@ const AiHero = () => {
         >
           <div className="absolute inset-0">
             {[...Array(15)].map((_, i) => (
-              <div
+              <div 
+              
                 key={i}
                 className="h-[1px] bg-white/10"
                 style={{ marginTop: `${i * 20}px` }}
@@ -112,7 +113,7 @@ const AiHero = () => {
             ))}
           </div>
           <div className="relative z-10 p-8 flex flex-col md:flex-row justify-between items-center h-full">
-            <div className="text-[60px] md:text-[80px] font-bold text-black">+3.5x</div>
+            <div className="text-[60px] md:text-[80px] font-semibold text-black">+3.5x</div>
             <div className="flex items-center gap-2 mt-4 md:mt-0">
               <span className="text-lg md:text-xl text-black">Increase in Customer Engagement</span>
               <Image src="/arr2.png" alt="chevron" width={18} height={18} />
