@@ -38,7 +38,7 @@ import TestimonialSection from "../components/TestimonialSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 
 export const metadata = {
-  title: "About Us - Appversal | Leading App Store Optimization Experts",
+  title: "About AppVersal - App Marketing Company",
   description:
     "Learn more about Appversal, a leading app store optimization (ASO) agency. We help apps achieve higher visibility, growth, and success in competitive markets.",
   keywords:

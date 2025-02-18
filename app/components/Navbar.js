@@ -82,7 +82,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="sm:hidden bg-white shadow-md py-4">
-          <div className="px-4 space-y-4 flex flex-col items-start">
+          <div className="px-4 space-y-4 flex flex-col items-center text-[15px]">
             <Link
               href="/about"
               className={`flex items-center ${pathname === '/about' ? 'text-red-600' : 'text-[#0F1934]'} hover:text-red-600`}

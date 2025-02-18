@@ -19,7 +19,7 @@ import "./globals.css";
 import Head from "next/head"; // Importing Head from next/head
 
 export const metadata = {
-  title: "Appversal | Optimize Your App Store Visibility",
+  title: "AppVersal: Leading App Global AI Powerhouse",
   description:
     "Appversal provides expert App Store Optimization (ASO) services to help apps gain visibility, increase downloads, and drive growth. Learn more about how we help mobile apps succeed in competitive markets.",
   keywords:

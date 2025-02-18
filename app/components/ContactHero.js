@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const ContactHero = () => {
-  const [openSection, setOpenSection] = useState("india");
+  const [openSection, setOpenSection] = useState(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -70,12 +70,12 @@ const ContactHero = () => {
         message: "Thank you! We'll be in touch soon.",
       });
 
-      setFormData({ 
-        name: "", 
-        email: "", 
+      setFormData({
+        name: "",
+        email: "",
         message: "",
-        form: "appversal form" 
-      }); 
+        form: "appversal form"
+      });
     } catch (error) {
       setStatus({
         type: "error",
@@ -103,6 +103,32 @@ const ContactHero = () => {
 
           {/* Accordion Sections */}
           <div className="space-y-4">
+            {/* USA Section */}
+            <div className="border-b border-gray-700">
+              <button
+                onClick={() => toggleSection("usa")}
+                className="w-full text-left py-4 flex items-center justify-between text-white"
+              >
+                <span className="text-lg">United States Of America</span>
+                <span className="text-2xl">
+                  {openSection === "usa" ? "−" : "+"}
+                </span>
+              </button>
+              {openSection === "usa" && (
+                <div className="pb-4 space-y-4">
+                  <p className="text-gray-300">San Francisco, USA</p>
+                  <div className="flex items-center gap-2 text-gray-300">
+                    <span>✉</span>
+                    <a
+                      href="mailto:us.support@appversal.com"
+                      className="hover:text-white transition-colors"
+                    >
+                      support@appversal.com
+                    </a>
+                  </div>
+                </div>
+              )}
+            </div>
             {/* India Section */}
             <div className="border-b border-gray-700">
               <button
@@ -134,32 +160,7 @@ const ContactHero = () => {
               )}
             </div>
 
-            {/* USA Section */}
-            <div className="border-b border-gray-700">
-              <button
-                onClick={() => toggleSection("usa")}
-                className="w-full text-left py-4 flex items-center justify-between text-white"
-              >
-                <span className="text-lg">United States Of America</span>
-                <span className="text-2xl">
-                  {openSection === "usa" ? "−" : "+"}
-                </span>
-              </button>
-              {openSection === "usa" && (
-                <div className="pb-4 space-y-4">
-                  <p className="text-gray-300">San Francisco, USA</p>
-                  <div className="flex items-center gap-2 text-gray-300">
-                    <span>✉</span>
-                    <a
-                      href="mailto:us.support@appversal.com"
-                      className="hover:text-white transition-colors"
-                    >
-                      support@appversal.com
-                    </a>
-                  </div>
-                </div>
-              )}
-            </div>
+
           </div>
 
           {/* Social Links */}
@@ -258,11 +259,10 @@ const ContactHero = () => {
             {/* Status Messages */}
             {status.message && (
               <div
-                className={`text-sm ${
-                  status.type === "success"
+                className={`text-sm ${status.type === "success"
                     ? "text-green-700 bg-green-100 p-3 rounded-lg"
                     : "text-red-700 bg-red-100 p-3 rounded-lg"
-                }`}
+                  }`}
               >
                 {status.message}
               </div>

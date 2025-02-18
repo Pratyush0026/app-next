@@ -22,7 +22,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: "Contact Us - Appversal | Get in Touch with Our Team",
+  title: "Contact - AppVersal",
   description:
     "Contact Appversal for personalized app solutions and expert advice. Reach out to our team to discuss how we can help optimize your app's performance and drive growth.",
   keywords:

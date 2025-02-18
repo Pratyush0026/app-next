@@ -29,7 +29,7 @@ import WhatWeDoSection from "../components/WhatWeDo";
 import WhyChooseSection from "../components/WhyChooseSection";
 
 export const metadata = {
-  title: "Appversal AI | Leveraging AI for App Growth",
+  title: "AppVersal AI - Powering Apps with AI",
   description:
     "Explore Appversal's AI-driven solutions for app growth and optimization. Learn how AI can revolutionize your app's performance, user engagement, and marketing strategies.",
   keywords:

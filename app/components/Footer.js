@@ -6,7 +6,7 @@ import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#D4F771] w-full h-full lg:h-[460px] py-8 mt-[50px]">
+    <footer className="bg-[#D4F771] w-full h-full lg:h-[460px] py-8 mt-[20px]">
       <div className="container mx-auto px-4 h-full flex flex-col justify-between">
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start h-full gap-8">

@@ -59,9 +59,9 @@ const TestimonialSection = () => {
             </p>
             <div className="space-y-6">
               <p className="text-xl text-right">— Bajaj</p>
-              <button className="bg-[#D2F34C] text-black px-8 py-3 rounded-full hover:bg-opacity-90 transition-colors text-sm font-medium tracking-wide">
+              {/* <button className="bg-[#D2F34C] text-black px-8 py-3 rounded-full hover:bg-opacity-90 transition-colors text-sm font-medium tracking-wide">
                 SEE SUCCESS STORIES
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
