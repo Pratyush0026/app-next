@@ -23,8 +23,8 @@ const AiFutureSection = () => {
         {/* First Card */}
         <div className="flex flex-col md:flex-row bg-[#E5FF9A] p-6 rounded-lg shadow-lg">
           <div className="flex-1">
-            <h2 className="text-xl md:text-[39px] font-semibold text-[#000000] mb-4">
-              App Store <br /> <br /> Optimization
+            <h2 className="text-xl md:text-[39px] font-semibold text-[#000000] mb-4 leading-[1.2]">
+              App Store <br />  Optimization
             </h2>
             <p className="text-gray-700 text-[16px] font-normal leading-relaxed">
               Unlock your app's potential with data-driven ASO strategies.
@@ -56,9 +56,9 @@ const AiFutureSection = () => {
         >
           <div className="flex-1 flex justify-start items-end">
             <div className="p-4 rounded-md">
-              <h2 className="text-lg md:text-[34px] font-normal text-gray-900">
+              <h2 className="text-lg md:text-[34px] font-normal text-gray-900  leading-[1.2]">
                 App Growth Tools
-                <br /><br />
+                <br />
               </h2>
               <p className="text-sm font-normal max-w-[400px] text-gray-700">
                 Supercharge your app experience with powerful growth tools.
@@ -80,8 +80,8 @@ const AiFutureSection = () => {
             backgroundImage: `url('/ai.png')`,
           }}
         >
-          <h2 className="text-lg md:text-[34px] font-normal text-gray-900 mb-4">
-            Future of Apps Is Powered <br /><br /> By AI Agents
+          <h2 className="text-lg md:text-[34px] font-normal text-gray-900 mb-4 leading-[1.2]">
+            Future of Apps Is Powered <br /> By AI Agents
           </h2>
 
           <p className="text-[#0C2215] text-[13px] max-w-[250px] font-normal leading-relaxed">
@@ -95,8 +95,8 @@ const AiFutureSection = () => {
 
         {/* Fourth Card */}
         <div className="flex flex-col justify-between bg-[#51656D] p-6 rounded-lg shadow-lg">
-          <h2 className="text-lg md:text-[34px] font-normal text-[#ffffff]">
-            User Acquisition - <br /><br /> Performance Marketing
+          <h2 className="text-lg md:text-[34px] font-normal text-[#ffffff] leading-[1.2]">
+            User Acquisition - <br />Performance Marketing
           </h2>
           <p className="text-sm font-normal text-[#ffffff] mt-4">
             Scale your app with laser-focused performance marketing campaigns.
