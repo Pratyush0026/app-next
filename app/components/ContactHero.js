@@ -174,13 +174,13 @@ const ContactHero = () => {
                 <FaLinkedin className="w-6 h-6 text-white cursor-pointer hover:text-gray-300" />
               </a>
 
-              <a
+              {/* <a
                 href="https://www.instagram.com/apversal?igsh=NGUyaHM4bWE3dmg2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram className="w-6 h-6 text-white cursor-pointer hover:text-gray-300" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

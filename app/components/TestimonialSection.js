@@ -7,9 +7,9 @@ import testBgImage from "@/public/testbg.png";
 
 const TestimonialSection = () => {
   return (
-    <section className="relative min-h-screen w-full py-24">
+    <section className="relative  w-full py-24">
       {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full -z-10">
+      <div className="absolute inset-0 w-full  -z-10">
         <Image
           src={testBgImage}
           alt="Testimonial background"

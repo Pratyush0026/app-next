@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 const AiHero = () => {
   return (
@@ -34,9 +35,12 @@ const AiHero = () => {
               <h2 className="text-2xl md:text-4xl lg:text-[68px] text-gray-500 font-medium relative inline-block">
                 AI SOLUTIONS
               </h2>
+
+              <Link href="/contact">
               <button className="bg-[#D4F771] h-[37px] w-[158px] rounded-[19px] text-black px-6 py-2  text-sm font-medium hover:bg-[#d9ff9e] transition-colors  whitespace-nowrap">
                 GET STARTED
               </button>
+              </Link>
             </div>
           </div>
         </div>

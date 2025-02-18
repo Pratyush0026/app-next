@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md font-['Martian_Mono'] text-[#0F1934] tracking-[1.5px] text-[12px] font-medium leading-auto mt-1 ml-4 mr-4">
+    <nav className="bg-white shadow-md font-['Martian_Mono'] text-[#0F1934] tracking-[1.5px] text-[12px] font-medium leading-auto mt-2">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 py-1 flex justify-between items-center">
         <Link href="/" className="flex items-center">
           <Image src="/logo.png" alt="AppVersal" width={192} height={64} className="w-48 h-16" />
@@ -31,7 +31,7 @@ const Navbar = () => {
             className={`flex items-center ${pathname === '/about' ? 'text-red-600' : 'text-[#0F1934]'} hover:text-red-600`}
             onClick={handleLinkClick}
           >
-            {pathname === '/about' && <span className="mr-2 text-red-600">•</span>}
+            {pathname === '/about' && <span className="mr-2  text-red-600">•</span>}
             ABOUT US
           </Link>
 
@@ -90,6 +90,15 @@ const Navbar = () => {
             >
               {pathname === '/about' && <span className="mr-2 text-red-600">•</span>}
               ABOUT US
+            </Link>
+
+            <Link
+              href="/ai"
+              className={`flex items-center ${pathname === '/ai' ? 'text-red-600' : 'text-[#0F1934]'} hover:text-red-600`}
+              onClick={handleLinkClick}
+            >
+              {pathname === '/ai' && <span className="mr-2 text-red-600">•</span>}
+              AI Appversal
             </Link>
             {/* <Link
               href="/work"

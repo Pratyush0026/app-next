@@ -59,14 +59,14 @@ const Footer = () => {
                   >
                     <FaLinkedin className="w-5 h-5 text-black cursor-pointer hover:text-green-800" />
                   </a>
-                  <a 
+                  {/* <a 
                     href="https://www.instagram.com/apversal?igsh=NGUyaHM4bWE3dmg2" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     aria-label="Visit AppVersal on Instagram"
                   >
                     <FaInstagram className="w-5 h-5 text-black cursor-pointer hover:text-green-800" />
-                  </a>
+                  </a> */}
                 </li>
               </ul>
             </div>

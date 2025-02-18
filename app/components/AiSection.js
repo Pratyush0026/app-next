@@ -6,6 +6,9 @@
 //           className="absolute inset-0 w-full h-full bg-cover bg-left-top z-10" 
 //           style={{ backgroundImage: "url('/ais.png')" }}
 //         />
+
+import Link from "next/link";
+
   
 //         <div className="relative z-20 h-full max-w-[1440px] mx-auto px-4 md:px-8 lg:px-16">
 //           <div className="flex flex-col md:flex-row h-full relative">
@@ -66,9 +69,11 @@ const AiSection = () => {
               Want to integrate AI into your business?
             </p>
             <div className="flex justify-center md:justify-start">
+              <Link href="/contact">
               <button className="bg-[#D4F771] text-black px-8 py-2.5 rounded-full text-sm font-medium hover:bg-[#e0ff7a] transition-colors">
                 GET IN TOUCH
               </button>
+              </Link>
             </div>
           </div>
         </div>
