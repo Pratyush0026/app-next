@@ -152,6 +152,77 @@
 
 // export default AboutHero;
 
+// 'use client';
+
+// import Link from "next/link";
+// import Image from "next/image";
+// import Navbar from "./Navbar";
+
+// const AboutHero = () => {
+//   return (
+//     <div className="relative min-h-screen w-full">
+//       {/* Background image with gradient */}
+//       <div 
+//         className="absolute inset-0 bg-cover bg-center"
+//         style={{ 
+//           backgroundImage: "url('/a1.png')",
+//           backgroundSize: 'cover'
+//         }}
+//       />
+
+//       {/* Gradient overlay for better text readability */}
+//       <div className="absolute inset-0 bg-black/30" />
+
+//       {/* Navbar */}
+//       <div className="relative z-10">
+//         <Navbar />
+//       </div>
+      
+//       {/* Main content */}
+//       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 xl:px-16">
+//         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between pt-8 sm:pt-12 lg:pt-16 xl:pt-24 gap-8 lg:gap-12">
+//           {/* Left content */}
+//           <div className="w-full lg:w-1/2 xl:w-[600px] pt-4 sm:pt-8">
+//             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[65px] font-normal leading-tight text-white mb-4 sm:mb-6 whitespace-pre-line">
+//               {'Revolutionizing App\nMarketing with AI'}
+//             </h1>
+            
+//             <p className="text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 max-w-[520px] text-white/90">
+//               Breaking all conventional marketing trends, AppVersal offers 
+//               advanced AI-focused app marketing solutions. We help engage, 
+//               interact, and grow your app's core metrics in the most advanced way.
+//             </p>
+
+//             <Link 
+//               href="/contact" 
+//               className="inline-block bg-[#D4F771] text-slate-900 px-6 sm:px-8 py-2.5 rounded-full text-sm font-medium uppercase tracking-wide hover:bg-[#b4e600] transition-colors duration-300"
+//             >
+//               GET STARTED
+//             </Link>
+//           </div>
+
+//           {/* Right content - Boxes Image */}
+//           <div className="w-full lg:w-1/2 xl:w-[600px]">
+//             <div className="relative w-full h-[300px] sm:h-[400px] xl:h-[500px]">
+//               <Image
+//                 src="/a2.png"
+//                 alt="Features grid showing various app marketing capabilities"
+//                 fill
+//                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
+//                 className="object-contain"
+//                 priority
+//               />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default AboutHero;
+
+
 'use client';
 
 import Link from "next/link";
@@ -160,7 +231,7 @@ import Navbar from "./Navbar";
 
 const AboutHero = () => {
   return (
-    <div className="relative min-h-screen w-full">
+    <div className="relative h-[700px] sm:h-[1000px] lg:h-[800px] xl:h-[900px] w-full">
       {/* Background image with gradient */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
@@ -170,18 +241,15 @@ const AboutHero = () => {
         }}
       />
 
-      {/* Gradient overlay for better text readability */}
+      {/* Rest of the code remains the same */}
       <div className="absolute inset-0 bg-black/30" />
 
-      {/* Navbar */}
       <div className="relative z-10">
         <Navbar />
       </div>
       
-      {/* Main content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 xl:px-16">
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between pt-8 sm:pt-12 lg:pt-16 xl:pt-24 gap-8 lg:gap-12">
-          {/* Left content */}
           <div className="w-full lg:w-1/2 xl:w-[600px] pt-4 sm:pt-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[65px] font-normal leading-tight text-white mb-4 sm:mb-6 whitespace-pre-line">
               {'Revolutionizing App\nMarketing with AI'}
@@ -201,7 +269,6 @@ const AboutHero = () => {
             </Link>
           </div>
 
-          {/* Right content - Boxes Image */}
           <div className="w-full lg:w-1/2 xl:w-[600px]">
             <div className="relative w-full h-[300px] sm:h-[400px] xl:h-[500px]">
               <Image
